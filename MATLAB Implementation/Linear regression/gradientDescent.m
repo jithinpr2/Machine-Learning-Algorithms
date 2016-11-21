@@ -1,6 +1,6 @@
 function [theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
 %GRADIENTDESCENT Performs gradient descent 
-% USAGE :  theta = GRADIENTDESCENTMULTI(x, y, theta, alpha, num_iters) 
+% USAGE :  theta = GRADIENTDESCENT(x, y, theta, alpha, num_iters) 
 
 % Initialize
 m = length(y); % number of training examples
